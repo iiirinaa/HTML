@@ -17,8 +17,10 @@ img {
 	max-width: 100%;
 }
 
+
 body {
 	font-family: 'font', sans-serif;
+    font-family: Arial, Verdana, sans-serif;
 }
 .main-content{
     display: flex;
@@ -45,12 +47,28 @@ body {
     padding-bottom: 24px;
     padding-left: 49px;
     padding-right: 49px;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color:  #3f2aff;
 }
 
 .link:last-child {
     margin-right: 0px;
 }
 
+.linkdownload {
+    font-weight: 700;
+    font-size: 18px;
+    color:  #3f2aff;
+}
+
+.ico {
+    padding-left: 30px;
+    background-image: url(../img/download.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
 .kontainer {
     margin: 0 auto;
     padding: 80px 0;
@@ -66,11 +84,19 @@ body {
     margin: 0;
     margin-bottom: 40px;
     width: 872px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333;
 }
 
 .h1 { 
     margin: 0;
     margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #333;
 }
 
 .greyblok
@@ -116,4 +142,18 @@ body {
     display: inline-block;
     margin-bottom: 40px;
     width: 872px;
+}
+
+.p1
+{
+   border-radius: 20px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 95px;
+   padding-right: 95px;
+   width: 100%;
+   font-weight: 700px;
+   font-size: 30px;
+   color: white;
+   background-color: #3f2aff;
 }
