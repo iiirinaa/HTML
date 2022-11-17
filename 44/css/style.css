@@ -47,25 +47,33 @@ body {
     padding-bottom: 24px;
     padding-left: 49px;
     padding-right: 49px;
+}
+
+.link1
+{
     margin-right: 25px;
     font-weight: 700;
     font-size: 18px;
     background-color:  #3f2aff;
 }
 
-.link:last-child {
-    margin-right: 0px;
+.link2
+{
+    font-weight: 700px;
+    font-size: 18px;
+    margin-left: 49px;
+   background-color: #3f2aff;
 }
 
-.linkdownload {
-    font-weight: 700;
+.download {
+    font-weight: 700px;
     font-size: 18px;
     color:  #3f2aff;
 }
 
 .ico {
     padding-left: 30px;
-    background-image: url(../img/download.png);
+    background-image: url(C:\Users\про\Desktop\2\44\img\download.png);
     background-position: left center;
     background-repeat: no-repeat;
 }
@@ -81,7 +89,7 @@ body {
 }
 
 .par {
-    margin: 0;
+
     margin-bottom: 40px;
     width: 872px;
     font-weight: 400;
@@ -93,7 +101,7 @@ body {
 .h1 { 
     margin: 0;
     margin-bottom: 40px;
-    font-weight: 400;
+    font-weight: 400%;
     font-size: 60px;
     line-height: 60px;
     color: #333;
@@ -107,12 +115,21 @@ body {
     margin-bottom: 40px;
 }
 
-.greyblok:last-child {
-    margin-bottom: 0px;
+figcaption
+{
+    border: 1px;
+    border-bottom-style: solid;
+    border-color: #b6b6b6;
+    border-top: 0;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-weight: 400%;
+    font-size: 14px;
+    text-align: center;
 }
 
 .pargrey{
-    margin: 0;
+    
     margin-bottom: 10px;
     width: 692px;
 }
@@ -120,18 +137,28 @@ body {
 .h2
 {
     margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 46px;
+    color: #333;
 }
 
 .ul {
     padding-left: 15px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: #3f2aff;
+    font-size: 30px;
+    color: #333;
 }
 
 .li {
     margin-bottom: 20px;
 }
 
-.li:last-child {
-    margin-bottom: 40px;
+ul li::marker
+{
+    color: #3f2aff;
+    font-size: 1.5em;
 }
 
 .img2 {
@@ -142,6 +169,7 @@ body {
     display: inline-block;
     margin-bottom: 40px;
     width: 872px;
+    font-size: 0px;
 }
 
 .p1
