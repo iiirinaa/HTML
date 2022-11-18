@@ -18,10 +18,10 @@ img {
 }
 
 
-body {
-	font-family: 'font', sans-serif;
+body{
     font-family: Arial, Verdana, sans-serif;
 }
+
 .main-content{
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ body {
 
 .ico {
     padding-left: 30px;
-    background-image: url(C:\Users\про\Desktop\2\44\img\download.png);
+    background-image: url(/img/download.png);
     background-position: left center;
     background-repeat: no-repeat;
 }
