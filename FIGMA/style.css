@@ -1,0 +1,72 @@
+.Main-class{
+    margin: 0 auto;
+    display: block;
+}
+
+.p{
+    height: 23px;
+    width: 108px;
+    left: 427px;
+    top: 105px;
+    color: blue;
+}
+
+.h1{
+height: 69px;
+width: 1170px;
+left: 375px;
+top: 153px;
+border-radius: nullpx;
+color: blue;
+}
+
+.background1
+{
+    height: 180px;
+    width: 572px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;    
+    background-image: url(../FIGMA/1.png);
+}
+
+.background2
+{
+height: 180px;
+width: 572px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background-image: url(../FIGMA/2.png) ;
+}
+
+.background3
+{
+height: 180px;
+width: 572px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background-image: url(../FIGMA/3.png) ;
+}
+
+.background4
+{
+height: 180px;
+width: 572px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background-image: url(../FIGMA/4.png) ;
+}
+
+.img{
+    height: 0px;
+    width: 45px;
+    left: 420px;
+    top: 115px;
+    border-radius: 0px;
+}
+.modules-ull{
+list-style: none;
+}
