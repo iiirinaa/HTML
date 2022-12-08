@@ -1,8 +1,12 @@
+.body-modules{
+  background:#FFFFFF;
+}
+
 .img-mod
 {
     margin-bottom: 25px;
 }
-.Osnova
+.osnova
 {
     margin: 0;
     display: block;
@@ -21,6 +25,7 @@
     vertical-align: top;
     margin-right: 25px;
     margin-bottom: 25px;
+    margin-left: 25px;
 }
 .modules-li-block:nth-child(2n) {
     margin-right: 0;
@@ -104,9 +109,7 @@ background-image: url(../FIGMA/3.png);
 background-image: url(../FIGMA/4.png);
 }
 
-.backgron555{
-    background-image: url(../FIGMA/Arrow\ 1.png);
-}
+
 
 .a-modules
 {
